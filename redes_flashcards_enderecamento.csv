@@ -1,0 +1,25 @@
+Termo,Explicação,Contexto
+IPv4,Protocolo de endereçamento de 32 bits utilizado para identificar dispositivos em redes TCP/IP.,Base da Internet e redes locais, limitado a cerca de 4,3 bilhões de endereços únicos.
+IPv6,Protocolo de endereçamento de 128 bits criado para substituir o IPv4, oferecendo um espaço muito maior de endereços.,Essencial para o crescimento da Internet e IoT, suporta autoconfiguração e segurança nativa.
+Máscara de Sub-rede,Valor que define a divisão entre a parte de rede e a parte de host de um endereço IP.,Permite segmentar redes em sub-redes menores, otimizando o uso de endereços.
+CIDR (Classless Inter-Domain Routing),Método de alocação de endereços IP e roteamento que permite máscaras de sub-rede de tamanho variável.,Aumenta a eficiência do uso de endereços e simplifica o roteamento.
+VLSM (Variable Length Subnet Mask),Técnica que permite sub-redes de diferentes tamanhos dentro da mesma rede.,Maximiza o aproveitamento de endereços IP em redes complexas.
+Endereço de Rede,Primeiro endereço de uma sub-rede, usado para identificar a própria rede.,Não pode ser atribuído a hosts, utilizado em roteamento.
+Broadcast,Último endereço de uma sub-rede, usado para enviar dados para todos os dispositivos daquela rede.,Fundamental para comunicação em redes locais.
+Gateway,Dispositivo que conecta uma rede local a outras redes, geralmente a Internet.,Responsável por encaminhar pacotes entre diferentes redes.
+Loopback,Endereço especial (127.0.0.1 em IPv4) que aponta para o próprio dispositivo.,Usado para testes e diagnósticos locais da pilha de rede.
+APIPA (Automatic Private IP Addressing),Faixa de endereços IP (169.254.x.x) atribuída automaticamente quando não há servidor DHCP disponível.,Permite comunicação local limitada em redes sem DHCP.
+Endereço MAC,Identificador físico único atribuído a cada interface de rede, usado para comunicação na camada de enlace.,Essencial para entrega de quadros em redes Ethernet e Wi-Fi.
+EUI-64,Método de geração automática de endereços IPv6 a partir do endereço MAC.,Facilita autoconfiguração de dispositivos em redes IPv6.
+SLAAC (Stateless Address Autoconfiguration),Mecanismo do IPv6 que permite a configuração automática de endereços sem servidor DHCP.,Simplifica a administração de redes IPv6.
+DHCPv6,Versão do DHCP para redes IPv6, atribui endereços e configurações a dispositivos.,Usado em redes modernas para gerenciamento centralizado de endereços IPv6.
+Tunneling (6to4, Teredo, ISATAP),Técnicas que permitem o transporte de pacotes IPv6 sobre infraestruturas IPv4.,Facilitam a transição gradual entre IPv4 e IPv6.
+NAT (Network Address Translation),Processo em que um roteador altera endereços IP de pacotes para permitir que múltiplos dispositivos compartilhem um único IP público.,Muito usado em redes domésticas e corporativas para economia de endereços IPv4.
+PAT (Port Address Translation),Variante do NAT que utiliza diferentes portas para mapear múltiplos dispositivos internos para um único IP público.,Também conhecido como NAT Overload, amplamente usado em roteadores domésticos.
+Port Forwarding,Técnica que direciona conexões externas para um dispositivo ou serviço específico dentro da rede interna.,Usado para hospedar servidores ou serviços acessíveis externamente.
+VLAN (Virtual LAN),Segmentação lógica de uma rede física em múltiplas redes independentes.,Permite isolar tráfego e aumentar a segurança e organização da rede.
+Private IP,Faixas de endereços IP reservadas para uso em redes privadas, não roteáveis na Internet.,Utilizadas em redes internas de empresas, residências e data centers.
+Public IP,Endereço IP globalmente único e roteável na Internet, atribuído por provedores.,Necessário para comunicação direta com dispositivos fora da rede local.
+Multicast,Endereço especial usado para enviar dados a um grupo específico de dispositivos.,Utilizado em streaming, IPTV e protocolos de roteamento.
+Unicast,Endereço que identifica um único dispositivo de destino em uma rede.,Forma mais comum de comunicação em redes IP.
+Anycast,Endereço atribuído a múltiplos dispositivos, onde o roteador entrega o pacote ao mais próximo.,Usado para balanceamento de carga e redundância em serviços globais. 

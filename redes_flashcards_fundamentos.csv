@@ -1,0 +1,17 @@
+Termo,Explicação,Contexto
+Camada Física,Primeira camada do modelo OSI, responsável pela transmissão de bits brutos através do meio físico.,Define cabos, conectores, sinais elétricos e ópticos usados para comunicação.
+Camada de Enlace de Dados,Segunda camada do modelo OSI, responsável pela entrega confiável de quadros entre dispositivos na mesma rede.,Inclui controle de acesso ao meio, detecção de erros e endereçamento MAC.
+Camada de Rede,Terceira camada do modelo OSI, responsável pelo roteamento de pacotes entre redes diferentes.,Define endereçamento IP, roteamento e fragmentação de pacotes.
+Camada de Transporte,Quarta camada do modelo OSI, responsável pela entrega fim a fim de dados entre hosts.,Inclui protocolos como TCP e UDP, controle de fluxo e correção de erros.
+Camada de Sessão,Quinta camada do modelo OSI, gerencia sessões de comunicação entre aplicações.,Estabelece, mantém e encerra sessões entre processos em dispositivos diferentes.
+Camada de Apresentação,Sexta camada do modelo OSI, responsável pela tradução, criptografia e compressão dos dados.,Garante que os dados sejam compreendidos por diferentes sistemas.
+Camada de Aplicação,Sétima camada do modelo OSI, fornece serviços de rede diretamente às aplicações do usuário.,Inclui protocolos como HTTP, FTP, SMTP e DNS.
+Modelo OSI,Modelo de referência de 7 camadas que padroniza as funções de uma rede de comunicação.,Ajuda a entender, projetar e solucionar problemas em redes.
+Modelo TCP/IP,Modelo de referência de 4 camadas usado na Internet, que define como os dados são transmitidos entre dispositivos.,Base para a comunicação em redes modernas, incluindo Internet e LANs.
+PDU (Unidade de Dados de Protocolo),Estrutura de dados transmitida em cada camada do modelo OSI, como quadros, pacotes e segmentos.,Permite encapsulamento e desencapsulamento de informações entre camadas.
+Encapsulamento,Processo de adicionar cabeçalhos e trailers aos dados à medida que eles descem pelas camadas do modelo OSI.,Garante que cada camada possa processar e encaminhar os dados corretamente.
+Desencapsulamento,Processo inverso ao encapsulamento, removendo cabeçalhos e trailers à medida que os dados sobem pelas camadas.,Permite que a aplicação receba os dados originais enviados.
+Comunicação ponto-a-ponto,Tipo de comunicação em que dois dispositivos se conectam diretamente para trocar dados.,Comum em links seriais, conexões PPP e redes privadas.
+Broadcast,Envio de dados de um dispositivo para todos os outros em uma rede local.,Utilizado em redes Ethernet para descoberta de dispositivos e serviços.
+Multicast,Envio de dados de um dispositivo para um grupo específico de dispositivos interessados.,Usado em streaming de vídeo, IPTV e protocolos de roteamento.
+Anycast,Envio de dados para o membro mais próximo de um grupo de dispositivos que compartilham o mesmo endereço.,Utilizado em redes globais para otimizar entrega de serviços. 

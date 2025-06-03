@@ -1,0 +1,20 @@
+Termo,Explicação,Contexto
+Switch,Dispositivo de camada 2 que conecta múltiplos dispositivos em uma LAN e encaminha quadros com base no endereço MAC de destino.,Essencial para segmentação de redes, criação de VLANs e aumento de desempenho em redes Ethernet.
+Hub,Dispositivo de rede que transmite os dados recebidos para todas as portas, sem distinção de destino.,Utilizado em redes antigas, mas substituído por switches devido à ineficiência e colisões.
+Bridge,Dispositivo que conecta e filtra o tráfego entre dois segmentos de rede, operando na camada 2.,Usado para dividir redes grandes e reduzir colisões.
+Router,Dispositivo de camada 3 responsável por encaminhar pacotes entre redes diferentes com base no endereço IP de destino.,Fundamental para comunicação entre redes locais e a Internet.
+Access Point,Dispositivo que permite a conexão de dispositivos sem fio (Wi-Fi) a uma rede cabeada.,Essencial para redes wireless em ambientes domésticos e corporativos.
+Modem,Dispositivo que modula e demodula sinais digitais e analógicos, permitindo a comunicação entre redes locais e a Internet via operadora.,Usado para acesso à Internet via ADSL, cabo, fibra ou 3G/4G.
+Repeater,Dispositivo que recebe, amplifica e retransmite sinais de rede para estender o alcance físico da comunicação.,Utilizado para expandir o sinal em redes cabeadas ou sem fio.
+Firewall,Dispositivo ou software que monitora e controla o tráfego de entrada e saída de uma rede com base em regras de segurança.,Protege redes contra acessos não autorizados, ataques e ameaças.
+Proxy,Servidor intermediário que recebe requisições dos clientes e as encaminha para os servidores de destino, podendo filtrar, registrar e armazenar dados.,Usado para controle de acesso, cache e anonimato em redes corporativas.
+Gateway,Dispositivo que conecta redes diferentes e traduz protocolos, endereços ou formatos de dados entre elas.,Permite a comunicação entre redes com tecnologias distintas, como LAN e Internet.
+Load Balancer,Dispositivo ou software que distribui o tráfego de rede entre múltiplos servidores para otimizar desempenho e disponibilidade.,Usado em data centers e serviços web para garantir alta disponibilidade.
+IDS,Sistema de Detecção de Intrusos que monitora o tráfego de rede em busca de atividades suspeitas ou maliciosas.,Auxilia na identificação de ataques e violações de segurança.
+IPS,Sistema de Prevenção de Intrusos que, além de detectar, pode bloquear ou mitigar ameaças automaticamente.,Complementa o IDS para resposta ativa a incidentes.
+UTM,Dispositivo de segurança multifuncional que integra firewall, IDS/IPS, antivírus, VPN e outros recursos em uma única solução.,Usado para simplificar a gestão de segurança em redes corporativas.
+CSU/DSU,Unidade de Serviço de Canal/Dados que conecta redes digitais (como T1/E1) a roteadores ou switches.,Utilizada em conexões WAN de operadoras.
+Media Converter,Dispositivo que converte sinais entre diferentes tipos de mídia física, como cobre para fibra óptica.,Permite integração de diferentes tecnologias de cabeamento em uma rede.
+Transceiver (SFP, GBIC, QSFP),Módulos que convertem sinais elétricos em ópticos e vice-versa, permitindo conexão de switches e roteadores a redes de fibra óptica.,Essenciais para uplinks de alta velocidade em data centers e redes corporativas.
+VoIP Phone,Telefone que utiliza a rede IP para transmitir voz, convertendo sinais analógicos em digitais.,Usado em sistemas de telefonia IP corporativa.
+Wireless Controller,Dispositivo que gerencia múltiplos access points, centralizando configurações, autenticação e políticas de segurança.,Fundamental para grandes redes Wi-Fi corporativas. 

@@ -1,0 +1,21 @@
+Termo,Explicação,Contexto
+Hypervisor,Software ou firmware que permite criar e gerenciar máquinas virtuais em um único hardware físico.,Fundamental para ambientes de virtualização, podendo ser do tipo 1 (bare-metal) ou tipo 2 (hosted).
+VM (Virtual Machine),Instância virtualizada de um sistema operacional que opera de forma independente em um hypervisor.,Permite consolidar múltiplos servidores virtuais em um único hardware físico.
+Container,Tecnologia de virtualização leve que isola aplicações e suas dependências em ambientes separados, compartilhando o mesmo sistema operacional.,Utilizado para facilitar o desenvolvimento, implantação e escalabilidade de aplicações.
+Docker,Plataforma de containers que automatiza a criação, distribuição e execução de aplicações em ambientes isolados.,Popular em DevOps e ambientes de microserviços.
+Kubernetes,Plataforma de orquestração de containers que automatiza implantação, escalonamento e gerenciamento de aplicações containerizadas.,Usado para gerenciar clusters de containers em larga escala.
+IaaS (Infrastructure as a Service),Modelo de computação em nuvem que fornece recursos de infraestrutura (servidores, armazenamento, redes) sob demanda.,Permite que empresas provisionem e gerenciem recursos de TI sem investir em hardware próprio.
+PaaS (Platform as a Service),Serviço de nuvem que oferece uma plataforma completa para desenvolvimento, execução e gerenciamento de aplicações.,Facilita o desenvolvimento sem se preocupar com infraestrutura subjacente.
+SaaS (Software as a Service),Modelo de entrega de software via Internet, onde aplicações são acessadas como serviço, sem instalação local.,Exemplos incluem e-mail, CRM e ferramentas de colaboração online.
+SDN (Software Defined Networking),Abordagem de redes que separa o plano de controle do plano de dados, permitindo gerenciamento centralizado e programável.,Facilita automação, flexibilidade e inovação em redes modernas.
+NFV (Network Functions Virtualization),Virtualização de funções de rede tradicionalmente executadas em hardware dedicado, como firewalls e roteadores.,Permite implantação ágil e escalável de serviços de rede em ambientes virtualizados.
+VXLAN (Virtual Extensible LAN),Tecnologia de encapsulamento que permite criar redes virtuais sobre infraestruturas físicas, expandindo o número de VLANs disponíveis.,Usada para conectar data centers e ambientes de cloud.
+GRE,Túnel de encapsulamento usado para transportar pacotes de diferentes protocolos entre redes virtuais.,Utilizado para criar túneis entre sites remotos ou ambientes de nuvem.
+Overlay,Redes virtuais criadas sobre uma infraestrutura física existente, utilizando encapsulamento para isolar tráfego.,Permite segmentação e mobilidade de workloads em ambientes de cloud e data center.
+Underlay,Infraestrutura física de rede que suporta as redes overlay, responsável pelo roteamento e encaminhamento real dos pacotes.,Base para a construção de redes virtuais e serviços avançados.
+Orquestração,Automação e gerenciamento centralizado de recursos, serviços e políticas em ambientes virtualizados ou de cloud.,Essencial para escalar e manter ambientes complexos de TI.
+Elasticidade,Capacidade de um ambiente virtualizado ou de nuvem de ajustar dinamicamente recursos conforme a demanda.,Garante eficiência de custos e desempenho sob variações de carga.
+Multi-Tenancy,Arquitetura que permite múltiplos clientes (tenants) compartilharem a mesma infraestrutura física de forma isolada.,Comum em serviços de cloud para otimizar recursos e garantir segurança.
+Cloud Pública,Serviço de nuvem oferecido por provedores externos, acessível via Internet e compartilhado entre múltiplos clientes.,Exemplos: AWS, Azure, Google Cloud.
+Cloud Privada,Infraestrutura de nuvem dedicada a uma única organização, podendo ser local ou hospedada por terceiros.,Oferece maior controle e segurança para dados sensíveis.
+Cloud Híbrida,Combinação de nuvem pública e privada, permitindo mover cargas de trabalho entre ambientes conforme necessidade.,Proporciona flexibilidade, escalabilidade e otimização de custos. 

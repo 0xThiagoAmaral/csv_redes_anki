@@ -1,0 +1,23 @@
+Termo,Explicação,Contexto
+Topologia Estrela,Configuração em que todos os dispositivos se conectam a um ponto central (geralmente um switch ou hub).,Facilita o gerenciamento e a identificação de falhas, sendo a topologia mais comum em redes modernas.
+Topologia Barramento,Todos os dispositivos compartilham um único cabo principal (backbone) para comunicação.,Simples e econômica, mas sujeita a colisões e difícil de expandir; pouco usada atualmente.
+Topologia Anel,Os dispositivos são conectados em um círculo fechado, onde os dados circulam em uma direção.,Utilizada em redes Token Ring e FDDI; falhas em um ponto podem afetar toda a rede.
+Topologia Malha,Cada dispositivo está conectado a todos os outros, garantindo múltiplos caminhos para os dados.,Oferece alta redundância e tolerância a falhas, mas é cara e complexa de implementar.
+Topologia Híbrida,Combinação de duas ou mais topologias básicas para atender necessidades específicas.,Comum em grandes redes corporativas que exigem flexibilidade e escalabilidade.
+Ponto-a-Ponto,Conexão direta entre dois dispositivos para comunicação exclusiva.,Usada em links dedicados, VPNs site-to-site e conexões seriais.
+Cliente-Servidor,Modelo lógico onde dispositivos clientes solicitam serviços a servidores centralizados.,Base de redes corporativas, facilita controle, segurança e compartilhamento de recursos.
+Peer-to-Peer,Todos os dispositivos podem atuar como clientes e servidores, compartilhando recursos diretamente.,Comum em redes domésticas e pequenos escritórios.
+LAN (Local Area Network),Rede local que cobre uma área geográfica limitada, como um escritório ou residência.,Permite alta velocidade de comunicação e compartilhamento de recursos.
+WAN (Wide Area Network),Rede que cobre grandes distâncias geográficas, conectando múltiplas LANs.,Utiliza links públicos ou privados, como Internet, MPLS e links dedicados.
+MAN (Metropolitan Area Network),Rede que cobre uma cidade ou campus, conectando várias LANs próximas.,Usada por empresas, universidades e órgãos públicos para integração regional.
+PAN (Personal Area Network),Rede de curto alcance para conectar dispositivos pessoais, como smartphones e notebooks.,Utiliza tecnologias como Bluetooth e USB.
+WLAN (Wireless LAN),Rede local sem fio baseada no padrão IEEE 802.11, permitindo mobilidade aos usuários.,Comum em ambientes corporativos, residenciais e públicos.
+WWAN (Wireless WAN),Rede sem fio de longa distância, geralmente baseada em tecnologias celulares (3G, 4G, 5G).,Permite acesso à Internet em áreas amplas, como cidades e rodovias.
+SAN (Storage Area Network),Rede dedicada para interconexão de dispositivos de armazenamento e servidores.,Usada para alta performance e disponibilidade em data centers.
+CAN (Campus Area Network),Rede que conecta múltiplos prédios ou departamentos em um campus.,Comum em universidades, hospitais e grandes empresas.
+VPN (Virtual Private Network),Rede virtual que utiliza criptografia para criar conexões seguras sobre redes públicas.,Permite acesso remoto seguro a recursos corporativos.
+VLAN (Virtual LAN),Segmentação lógica de uma rede física em múltiplas redes independentes.,Aumenta a segurança, organização e desempenho em redes corporativas.
+DMZ (Demilitarized Zone),Sub-rede isolada da rede interna, onde são colocados servidores acessíveis externamente.,Reduz o risco de ataques à rede interna ao expor apenas serviços necessários.
+Intranet,Rede privada interna de uma organização, baseada em tecnologias de Internet.,Facilita comunicação, colaboração e acesso a recursos internos.
+Extranet,Rede que permite acesso controlado de parceiros externos a recursos internos de uma organização.,Usada para integração com fornecedores, clientes e parceiros.
+Internet,Rede global pública que conecta bilhões de dispositivos e redes ao redor do mundo.,Base para comunicação, serviços e aplicações modernas. 

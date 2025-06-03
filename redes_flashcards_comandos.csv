@@ -1,0 +1,23 @@
+Termo,Explicação,Contexto
+ping,Comando que envia pacotes ICMP Echo Request para um host e aguarda resposta, testando a conectividade e o tempo de resposta.,Usado para diagnosticar problemas de rede e verificar se um dispositivo está acessível.
+tracert,Comando do Windows que exibe o caminho percorrido pelos pacotes até um destino, mostrando cada roteador intermediário.,Auxilia na identificação de onde ocorre perda ou lentidão na rota até o destino.
+traceroute,Comando equivalente ao tracert em sistemas Unix/Linux, mostra o caminho dos pacotes até o destino.,Utilizado para análise de rotas e troubleshooting em redes.
+ipconfig,Comando do Windows que exibe e gerencia as configurações de IP das interfaces de rede do computador.,Usado para verificar, renovar ou liberar endereços IP em estações Windows.
+ifconfig,Comando de sistemas Unix/Linux para exibir e configurar interfaces de rede.,Utilizado para diagnóstico, configuração e troubleshooting de conexões de rede.
+arp,Comando que exibe e manipula a tabela ARP do sistema, mostrando associações entre IPs e MACs.,Usado para resolver problemas de comunicação local e verificar conflitos de endereçamento.
+nslookup,Comando que consulta servidores DNS para resolver nomes de domínio em endereços IP e vice-versa.,Essencial para troubleshooting de resolução de nomes.
+dig,Comando avançado para consultas DNS, fornecendo informações detalhadas sobre registros e servidores.,Preferido por administradores para análise aprofundada de DNS.
+netstat,Comando que exibe conexões de rede ativas, tabelas de roteamento e estatísticas de interfaces.,Usado para monitorar tráfego, portas abertas e identificar conexões suspeitas.
+route,Comando que exibe e manipula a tabela de roteamento do sistema operacional.,Permite adicionar, remover ou visualizar rotas estáticas e dinâmicas.
+nmap,Ferramenta de varredura de redes que identifica hosts ativos, portas abertas e serviços em execução.,Utilizada para auditoria de segurança, inventário e troubleshooting.
+tcpdump,Ferramenta de captura e análise de pacotes em tempo real em sistemas Unix/Linux.,Usada para diagnóstico avançado e análise de tráfego de rede.
+wireshark,Aplicação gráfica para captura e análise detalhada de pacotes de rede.,Ferramenta essencial para troubleshooting, análise de protocolos e segurança.
+pathping,Comando do Windows que combina funcionalidades do ping e tracert, mostrando perda de pacotes em cada salto.,Útil para identificar pontos de falha ou degradação na rota.
+mtr,Comando que combina traceroute e ping, fornecendo estatísticas em tempo real sobre cada salto até o destino.,Muito usado em Linux para diagnóstico contínuo de rotas.
+telnet,Comando para acessar remotamente dispositivos de rede via protocolo Telnet, sem criptografia.,Utilizado para testes e administração, mas substituído por SSH devido à segurança.
+ssh,Comando para acesso remoto seguro a dispositivos e servidores via protocolo SSH, com criptografia.,Padrão para administração remota de sistemas Unix/Linux e equipamentos de rede.
+show running-config,Comando em equipamentos Cisco que exibe a configuração atual em execução no dispositivo.,Usado para auditoria, troubleshooting e backup de configurações.
+show interfaces,Comando em equipamentos Cisco que exibe o status e estatísticas das interfaces de rede.,Essencial para diagnóstico de problemas físicos e de conectividade.
+show ip route,Comando em roteadores Cisco que exibe a tabela de roteamento IP do dispositivo.,Permite verificar rotas aprendidas, estáticas e dinâmicas.
+show vlan,Comando em switches Cisco que exibe as VLANs configuradas e suas portas associadas.,Usado para validar segmentação e troubleshooting de VLANs.
+show mac address-table,Comando em switches Cisco que exibe a tabela de endereços MAC aprendidos e suas portas.,Fundamental para troubleshooting de conectividade e análise de tráfego na LAN. 

@@ -1,0 +1,34 @@
+Termo,Explicação,Contexto
+UTP (Unshielded Twisted Pair),Cabo de par trançado sem blindagem, amplamente utilizado em redes Ethernet.,Comum em cabeamento estruturado de escritórios e residências, categorias Cat5e, Cat6, Cat6a.
+STP (Shielded Twisted Pair),Cabo de par trançado com blindagem para reduzir interferências eletromagnéticas.,Usado em ambientes industriais ou com alta interferência.
+FTP (Foiled Twisted Pair),Cabo de par trançado com blindagem em folha metálica ao redor dos pares.,Oferece proteção adicional contra ruídos externos.
+S/FTP (Shielded Foiled Twisted Pair),Cabo de par trançado com blindagem individual em cada par e uma blindagem geral.,Utilizado em ambientes críticos para máxima proteção contra interferências.
+Coaxial,Cabo composto por um condutor central, isolante, blindagem e capa externa, usado em redes antigas e TV a cabo.,Ainda utilizado em sistemas de CFTV e algumas redes metropolitanas.
+Fibra Óptica,Cabo que transmite dados como pulsos de luz, oferecendo alta velocidade e imunidade a interferências.,Essencial para backbone de redes, data centers e conexões de longa distância.
+SMF (Single-Mode Fiber),Fibra óptica com núcleo fino, projetada para transmissão de dados a longas distâncias com baixa atenuação.,Usada em links de backbone e conexões metropolitanas.
+MMF (Multi-Mode Fiber),Fibra óptica com núcleo mais largo, adequada para transmissões de curta distância e ambientes internos.,Comum em data centers e redes locais.
+Wireless,Tecnologia de transmissão de dados sem fio, utilizando ondas de rádio ou infravermelho.,Base de redes Wi-Fi, Bluetooth e links ponto-a-ponto.
+Bluetooth,Tecnologia de comunicação sem fio de curto alcance para troca de dados entre dispositivos.,Usado em periféricos, áudio e IoT.
+NFC (Near Field Communication),Tecnologia de comunicação sem fio de curtíssimo alcance, utilizada para pagamentos e autenticação.,Comum em smartphones e cartões contactless.
+IR (Infrared),Transmissão de dados por luz infravermelha, usada em controles remotos e alguns dispositivos de rede antigos.,Limitada a comunicação ponto-a-ponto e curta distância.
+Z-Wave,Protocolo de comunicação sem fio para automação residencial, operando em frequências baixas.,Utilizado em dispositivos de smart home.
+ZigBee,Protocolo de comunicação sem fio de baixo consumo para automação e sensores.,Comum em IoT e automação predial.
+RJ-45,Conector padrão para cabos de par trançado em redes Ethernet.,Utilizado em switches, roteadores, computadores e patch panels.
+RJ-11,Conector menor usado em linhas telefônicas e modems.,Comum em telefonia fixa e ADSL.
+LC,Conector de fibra óptica pequeno, de encaixe rápido, usado em ambientes de alta densidade.,Popular em data centers e painéis de fibra.
+SC,Conector de fibra óptica de encaixe simples, utilizado em redes ópticas.,Comum em links de backbone e conexões de operadoras.
+ST,Conector de fibra óptica de encaixe por baioneta, tradicional em redes multimodo.,Ainda encontrado em instalações antigas.
+MTRJ,Conector de fibra óptica compacto, que suporta dois fios em um único conector.,Usado em ambientes de alta densidade.
+BNC,Conector coaxial de encaixe rápido, utilizado em redes antigas e sistemas de vídeo.,Comum em CFTV e redes 10BASE2.
+F-Type,Conector coaxial rosqueado, usado em TV a cabo e modems de banda larga.,Padrão em instalações residenciais de TV e Internet.
+DB-9,Conector serial de 9 pinos, utilizado em interfaces RS-232 e equipamentos antigos.,Comum em consoles de roteadores e switches.
+DB-25,Conector serial de 25 pinos, usado em impressoras e equipamentos legados.,Encontrado em interfaces paralelas e seriais antigas.
+USB,Interface universal para conexão de periféricos e dispositivos de armazenamento.,Utilizado para alimentação, dados e comunicação em diversos equipamentos.
+SFP (Small Form-factor Pluggable),Módulo óptico ou elétrico removível usado para uplinks de alta velocidade em switches e roteadores.,Permite flexibilidade na escolha do tipo de mídia (fibra ou cobre).
+QSFP (Quad Small Form-factor Pluggable),Módulo óptico de alta densidade para conexões de 40Gbps ou superiores.,Usado em data centers e redes de alta performance.
+GBIC (Gigabit Interface Converter),Módulo transceptor removível para interfaces de rede gigabit.,Antecessor dos módulos SFP, ainda presente em alguns equipamentos.
+Keystone Jack,Conector modular usado em painéis de conexão e tomadas de rede.,Facilita a organização e manutenção do cabeamento estruturado.
+Patch Panel,Painel de conexão que organiza e distribui cabos de rede em racks.,Centraliza a gestão e facilita mudanças na infraestrutura.
+Punchdown Block,Bloco de terminação para cabos de par trançado, utilizado em telefonia e redes.,Permite conexões rápidas e seguras em cabeamento estruturado.
+Plenum,Cabo com revestimento especial resistente ao fogo e baixa emissão de fumaça, usado em dutos de ar condicionado.,Exigido por normas de segurança em edifícios comerciais.
+Non-Plenum,Cabo padrão sem revestimento especial, utilizado em ambientes onde não há exigência de resistência ao fogo.,Mais econômico, porém restrito a áreas comuns. 

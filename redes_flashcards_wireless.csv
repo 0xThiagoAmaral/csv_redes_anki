@@ -1,0 +1,29 @@
+Termo,Explicação,Contexto
+802.11a,Padrão Wi-Fi que opera na frequência de 5 GHz, oferecendo velocidades de até 54 Mbps.,Menos suscetível a interferências, mas com alcance menor que 2,4 GHz.
+802.11b,Padrão Wi-Fi que opera em 2,4 GHz, com velocidades de até 11 Mbps.,Primeiro padrão Wi-Fi amplamente adotado, sujeito a interferências de outros dispositivos.
+802.11g,Padrão Wi-Fi que opera em 2,4 GHz, com velocidades de até 54 Mbps.,Compatível com 802.11b, mas com melhor desempenho.
+802.11n,Padrão Wi-Fi que opera em 2,4 GHz e 5 GHz, com velocidades de até 600 Mbps usando MIMO.,Popular em redes domésticas e corporativas, oferece maior alcance e desempenho.
+802.11ac,Padrão Wi-Fi que opera em 5 GHz, com velocidades de até vários Gbps usando múltiplos fluxos.,Ideal para ambientes de alta densidade e streaming de alta definição.
+802.11ax (Wi-Fi 6),Padrão Wi-Fi que opera em 2,4 GHz e 5 GHz, com maior eficiência, capacidade e velocidades superiores ao 802.11ac.,Projetado para ambientes com muitos dispositivos conectados simultaneamente.
+SSID (Service Set Identifier),Nome da rede Wi-Fi que identifica um conjunto de dispositivos conectados.,Usado para diferenciar redes sem fio em um mesmo local.
+BSSID (Basic Service Set Identifier),Endereço MAC único do access point que identifica uma célula Wi-Fi específica.,Importante para roaming e gerenciamento de múltiplos APs.
+ESSID (Extended Service Set Identifier),Nome de uma rede Wi-Fi composta por múltiplos access points interligados.,Permite mobilidade e cobertura ampliada em grandes ambientes.
+WEP (Wired Equivalent Privacy),Protocolo de segurança Wi-Fi antigo, considerado inseguro devido a vulnerabilidades.,Não recomendado para uso atual; substituído por WPA e WPA2.
+WPA (Wi-Fi Protected Access),Protocolo de segurança Wi-Fi que melhorou a proteção em relação ao WEP.,Usado como solução intermediária até a adoção do WPA2.
+WPA2,Protocolo de segurança Wi-Fi baseado em AES, considerado padrão por muitos anos.,Oferece forte proteção para redes sem fio domésticas e corporativas.
+WPA3,Protocolo de segurança Wi-Fi mais recente, com melhorias em criptografia e proteção contra ataques de força bruta.,Recomendado para novas redes e dispositivos compatíveis.
+TKIP (Temporal Key Integrity Protocol),Protocolo de criptografia usado no WPA, mais seguro que WEP, mas menos que AES.,Considerado legado, sendo substituído por AES.
+AES (Advanced Encryption Standard),Algoritmo de criptografia forte usado em WPA2 e WPA3 para proteger dados em redes Wi-Fi.,Padrão de segurança recomendado para redes sem fio.
+PSK (Pre-Shared Key),Método de autenticação em redes Wi-Fi onde todos os dispositivos compartilham uma senha.,Comum em redes domésticas e pequenas empresas.
+EAP (Extensible Authentication Protocol),Protocolo de autenticação flexível usado em redes Wi-Fi corporativas com 802.1X.,Permite integração com servidores RADIUS e métodos avançados de autenticação.
+RADIUS,Protocolo de autenticação centralizada usado em redes Wi-Fi empresariais.,Permite controle de acesso e registro de conexões.
+Roaming,Capacidade de um dispositivo Wi-Fi se mover entre diferentes access points sem perder a conexão.,Essencial para cobertura contínua em grandes ambientes.
+Antena Omnidirecional,Antena que irradia sinal em todas as direções horizontais, cobrindo áreas amplas.,Usada em access points para cobertura geral.
+Antena Direcional,Antena que concentra o sinal em uma direção específica, aumentando o alcance e a intensidade.,Utilizada para links ponto-a-ponto e cobertura direcionada.
+MIMO (Multiple Input Multiple Output),Tecnologia que utiliza múltiplas antenas para transmitir e receber dados simultaneamente.,Aumenta a capacidade e o desempenho das redes Wi-Fi.
+MU-MIMO (Multi-User MIMO),Extensão do MIMO que permite comunicação simultânea com múltiplos dispositivos.,Melhora a eficiência em ambientes com muitos usuários.
+Beamforming,Técnica que direciona o sinal Wi-Fi para dispositivos específicos, aumentando alcance e desempenho.,Presente em padrões como 802.11ac e 802.11ax.
+Site Survey,Processo de análise do ambiente para planejar a instalação de redes Wi-Fi.,Ajuda a identificar interferências, obstáculos e pontos ideais para APs.
+Channel Overlap,Situação em que canais Wi-Fi próximos interferem entre si, reduzindo desempenho.,Deve ser evitado com planejamento adequado de canais.
+Interferência,Problemas causados por sinais de outros dispositivos ou redes que afetam o desempenho do Wi-Fi.,Comum em ambientes urbanos e industriais.
+Hidden Node,Situação em que dispositivos não conseguem detectar a transmissão uns dos outros, causando colisões.,Pode ser mitigado com técnicas como RTS/CTS. 

@@ -1,0 +1,36 @@
+Termo,Explicação,Contexto
+Firewall,Dispositivo ou software que monitora e controla o tráfego de entrada e saída de uma rede com base em regras de segurança.,Protege redes contra acessos não autorizados, ataques e ameaças.
+IDS,Sistema de Detecção de Intrusos que monitora o tráfego de rede em busca de atividades suspeitas ou maliciosas.,Auxilia na identificação de ataques e violações de segurança.
+IPS,Sistema de Prevenção de Intrusos que, além de detectar, pode bloquear ou mitigar ameaças automaticamente.,Complementa o IDS para resposta ativa a incidentes.
+UTM,Dispositivo de segurança multifuncional que integra firewall, IDS/IPS, antivírus, VPN e outros recursos em uma única solução.,Usado para simplificar a gestão de segurança em redes corporativas.
+ACL,Lista de Controle de Acesso que define regras para permitir ou negar tráfego em dispositivos de rede.,Utilizada em roteadores e switches para segmentação e proteção de redes.
+DMZ,Sub-rede isolada da rede interna, onde são colocados servidores acessíveis externamente, como web e e-mail.,Reduz o risco de ataques à rede interna ao expor apenas serviços necessários.
+Honeypot,Sistema ou recurso projetado para atrair e monitorar atividades maliciosas, simulando vulnerabilidades.,Usado para estudar técnicas de ataque e proteger a rede real.
+Honeynet,Conjunto de honeypots interligados para simular uma rede completa e monitorar ataques sofisticados.,Permite análise avançada de ameaças e comportamento de invasores.
+VPN,Rede privada virtual que utiliza criptografia para criar um túnel seguro entre dois pontos na Internet.,Garante confidencialidade e integridade dos dados em conexões remotas.
+IPsec,Conjunto de protocolos para proteger comunicações IP através de autenticação e criptografia.,Usado em VPNs para garantir segurança de dados em trânsito.
+SSL/TLS,Protocolos criptográficos que garantem comunicação segura em redes, especialmente na web.,Base da segurança em HTTPS, e-mails e VPNs.
+GRE,Protocolo de encapsulamento usado para criar túneis entre redes, podendo ser combinado com IPsec para segurança.,Permite transporte seguro de dados entre filiais ou parceiros.
+L2TP,Protocolo de tunelamento para VPNs, geralmente combinado com IPsec para criptografia.,Utilizado para criar conexões seguras entre redes remotas.
+PPTP,Protocolo de tunelamento para VPNs, menos seguro que L2TP/IPsec, mas fácil de configurar.,Utilizado em VPNs antigas, atualmente considerado inseguro.
+RADIUS,Protocolo de autenticação centralizada para acesso a redes e serviços.,Usado em Wi-Fi corporativo, VPNs e autenticação de usuários.
+TACACS+,Protocolo de autenticação, autorização e auditoria para dispositivos de rede, com criptografia de todo o tráfego.,Preferido em ambientes Cisco para controle granular de acesso.
+Kerberos,Protocolo de autenticação baseado em tickets, que permite comunicação segura entre clientes e servidores.,Utilizado em ambientes Windows e sistemas corporativos.
+AAA,Conjunto de funções de Autenticação, Autorização e Auditoria em redes e sistemas.,Base para controle de acesso e rastreabilidade de ações de usuários.
+802.1X,Padrão IEEE para controle de acesso à rede baseado em autenticação de usuários e dispositivos.,Utilizado em redes corporativas para autenticação em switches e access points.
+NAC,Solução de controle de acesso à rede que verifica a conformidade de dispositivos antes de permitir conexão.,Ajuda a manter a segurança e integridade da rede.
+VLAN Hopping,Ataque que explora vulnerabilidades de configuração de VLANs para acessar tráfego de outras VLANs.,Mitigado com boas práticas de configuração de switches.
+ARP Spoofing,Ataque em que um invasor envia respostas ARP falsas para redirecionar tráfego de rede.,Pode resultar em interceptação de dados e ataques Man-in-the-Middle.
+MAC Flooding,Ataque que sobrecarrega a tabela MAC de um switch, fazendo com que ele envie tráfego para todas as portas.,Utilizado para capturar tráfego de outras máquinas na rede.
+DoS,Ataque de Negação de Serviço que visa tornar um serviço ou rede indisponível ao sobrecarregar recursos.,Pode ser realizado por um único atacante.
+DDoS,Versão distribuída do DoS, onde múltiplos sistemas atacam simultaneamente um alvo.,Dificulta a mitigação devido ao volume e à origem distribuída.
+MITM,Ataque Man-in-the-Middle em que o invasor intercepta e possivelmente altera a comunicação entre duas partes.,Pode comprometer confidencialidade e integridade dos dados.
+Phishing,Técnica de engenharia social que engana usuários para obter informações sensíveis, como senhas e dados bancários.,Comum em e-mails e sites falsos.
+Spoofing,Técnica de falsificação de identidade, como IP, MAC ou e-mail, para enganar sistemas e usuários.,Utilizada em diversos tipos de ataques.
+Social Engineering,Conjunto de técnicas que exploram o fator humano para obter acesso não autorizado a sistemas ou informações.,Inclui phishing, pretexting e outras abordagens.
+Zero Trust,Modelo de segurança que pressupõe que nenhuma entidade é confiável por padrão, exigindo autenticação e verificação contínuas.,Adotado para minimizar riscos em ambientes modernos.
+Segmentação,Prática de dividir a rede em segmentos menores para limitar o alcance de ataques e facilitar o controle.,Aumenta a segurança e facilita a gestão de políticas.
+Air Gap,Isolamento físico de sistemas críticos, sem conexão com outras redes ou a Internet.,Usado para proteger infraestruturas sensíveis contra ataques externos.
+SIEM,Sistema de Gerenciamento de Informações e Eventos de Segurança que coleta, analisa e correlaciona logs de múltiplas fontes.,Fundamental para detecção e resposta a incidentes de segurança.
+Syslog,Protocolo e sistema para registro centralizado de logs de eventos em dispositivos de rede e servidores.,Essencial para auditoria, troubleshooting e monitoramento de segurança.
+NetFlow,Tecnologia de monitoramento de tráfego de rede que coleta informações detalhadas sobre fluxos de dados.,Usada para análise de tráfego, detecção de anomalias e resposta a incidentes. 

@@ -1,0 +1,56 @@
+Termo,Explicação,Contexto
+TCP,Protocolo de transporte orientado à conexão, que garante a entrega confiável e ordenada dos dados entre dois dispositivos na rede. Utiliza confirmações (ACK), controle de fluxo e retransmissão de pacotes perdidos.,Usado em aplicações que exigem integridade dos dados, como web (HTTP/HTTPS), e-mail (SMTP, IMAP, POP3) e transferência de arquivos (FTP).
+UDP,Protocolo de transporte sem conexão, que envia datagramas sem garantir entrega, ordem ou integridade. É mais rápido e leve que o TCP, mas não oferece confiabilidade.,Utilizado em aplicações que priorizam velocidade e podem tolerar perda de pacotes, como streaming de vídeo/áudio, VoIP e jogos online.
+IP,Protocolo responsável pelo endereçamento e roteamento de pacotes entre dispositivos em redes diferentes. Define os endereços IP e o formato dos pacotes.,Base da comunicação na Internet e em redes privadas, opera nas versões IPv4 e IPv6.
+ICMP,Protocolo de suporte usado para enviar mensagens de controle e erro entre dispositivos de rede, como notificações de host inalcançável ou tempo excedido.,Base do comando ping e traceroute, fundamental para diagnóstico e monitoramento de redes.
+IGMP,Protocolo usado para gerenciar a associação de hosts a grupos multicast em redes IPv4.,Permite que dispositivos participem de transmissões multicast, como streaming de vídeo em grupo.
+ARP,Protocolo utilizado para mapear endereços IP a endereços MAC em redes locais, permitindo que dispositivos descubram o endereço físico de outros dispositivos na mesma LAN.,Essencial para comunicação em redes Ethernet IPv4.
+RARP,Protocolo que permite a um dispositivo descobrir seu endereço IP a partir de seu endereço MAC.,Usado em ambientes antigos para configuração automática de IP em dispositivos sem armazenamento local.
+NDP,Protocolo do IPv6 que substitui o ARP, responsável por descobrir outros dispositivos na rede, endereços de roteadores e informações de prefixo.,Essencial para funcionamento de redes IPv6.
+DHCP,Protocolo que atribui automaticamente endereços IP e configurações de rede (gateway, DNS) a dispositivos em uma rede.,Facilita a administração de redes, evitando configuração manual de IPs. Muito usado em redes domésticas e corporativas.
+DNS,Sistema hierárquico de resolução de nomes que traduz nomes de domínio amigáveis (como www.exemplo.com) em endereços IP.,Essencial para navegação na Internet e funcionamento de serviços web.
+HTTP,Protocolo de aplicação utilizado para transferência de páginas web e recursos entre clientes (navegadores) e servidores.,Base da World Wide Web, opera na porta 80 (HTTP) e 443 (HTTPS).
+HTTPS,Versão segura do HTTP, utiliza SSL/TLS para criptografar a comunicação entre cliente e servidor.,Utilizado para proteger dados sensíveis em transações web, como login e pagamentos.
+FTP,Protocolo de aplicação para transferência de arquivos entre clientes e servidores em redes TCP/IP.,Utilizado para upload/download de arquivos em servidores, opera nas portas 20 e 21.
+TFTP,Protocolo simples de transferência de arquivos, sem autenticação ou criptografia, baseado em UDP.,Usado para transferências rápidas em redes locais, como atualização de firmware de dispositivos.
+SFTP,Protocolo de transferência de arquivos sobre uma conexão segura SSH, garantindo confidencialidade e integridade.,Utilizado para transferências seguras de arquivos em ambientes corporativos.
+SCP,Protocolo para transferência segura de arquivos entre hosts em uma rede, utilizando SSH para autenticação e criptografia.,Muito usado para cópia rápida e segura de arquivos em servidores Linux/Unix.
+Telnet,Protocolo de acesso remoto a dispositivos de rede, sem criptografia, permitindo controle via linha de comando.,Utilizado para administração remota, mas substituído pelo SSH devido à falta de segurança.
+SSH,Protocolo de acesso remoto seguro, que utiliza criptografia para proteger dados e autenticação.,Padrão para administração remota de servidores e dispositivos de rede.
+SNMP,Protocolo de gerenciamento de redes que permite monitorar e controlar dispositivos de rede remotamente.,Usado por administradores para coletar informações, configurar e monitorar switches, roteadores, servidores, etc.
+SMTP,Protocolo padrão para envio de e-mails entre servidores de correio eletrônico.,Opera na porta 25, responsável pelo envio de mensagens, não pelo recebimento.
+POP3,Protocolo para recebimento de e-mails, que baixa as mensagens do servidor para o cliente e as remove do servidor.,Usado em clientes de e-mail tradicionais, opera na porta 110.
+IMAP,Protocolo para acesso e gerenciamento de e-mails diretamente no servidor, permitindo sincronização entre múltiplos dispositivos.,Preferido em ambientes modernos, opera na porta 143 (IMAP) e 993 (IMAPS).
+LDAP,Protocolo para acesso e gerenciamento de serviços de diretório, como autenticação de usuários em redes corporativas.,Utilizado em Active Directory, OpenLDAP e outros sistemas de diretório.
+NTP,Protocolo para sincronização de relógios de dispositivos em uma rede.,Garante que todos os dispositivos tenham o mesmo horário, essencial para logs e segurança.
+SMB,Protocolo de compartilhamento de arquivos, impressoras e portas seriais em redes Windows.,Base do compartilhamento de arquivos em redes locais Windows.
+CIFS,Versão moderna do SMB, utilizada para compartilhamento de arquivos em redes Windows.,Permite acesso remoto a arquivos e impressoras.
+NetBIOS,Interface de software que permite comunicação entre aplicativos em redes locais, frequentemente usada com SMB/CIFS.,Utilizada em redes Windows para descoberta de dispositivos e compartilhamento de recursos.
+SIP,Protocolo de sinalização para iniciar, manter e encerrar sessões de comunicação multimídia, como chamadas VoIP.,Base de sistemas de telefonia IP e videoconferência.
+RTP,Protocolo para transmissão de áudio e vídeo em tempo real pela Internet.,Usado em VoIP, videoconferência e streaming.
+H.323,Conjunto de protocolos para comunicação multimídia sobre redes IP, incluindo voz, vídeo e dados.,Utilizado em sistemas de videoconferência e telefonia IP.
+BGP,Protocolo de roteamento entre sistemas autônomos na Internet, responsável por trocar informações de roteamento entre provedores.,Essencial para o funcionamento da Internet global.
+OSPF,Protocolo de roteamento dinâmico de estado de enlace, utilizado para determinar o melhor caminho para o tráfego IP em grandes redes.,Muito usado em redes corporativas devido à sua rápida convergência e suporte a grandes topologias.
+EIGRP,Protocolo de roteamento proprietário da Cisco, que combina características de protocolos de vetor de distância e estado de enlace.,Utilizado em redes Cisco para roteamento eficiente e rápido.
+RIP,Protocolo de roteamento dinâmico de vetor de distância, que utiliza a contagem de saltos como métrica.,Simples, mas limitado a redes pequenas devido ao limite de 15 saltos.
+IS-IS,Protocolo de roteamento de estado de enlace usado em grandes redes, semelhante ao OSPF.,Utilizado por ISPs e grandes corporações.
+MPLS,Tecnologia de encaminhamento que utiliza rótulos para tomar decisões de roteamento, aumentando a velocidade e eficiência.,Usada por ISPs para criar redes privadas virtuais e otimizar o tráfego.
+PPP,Protocolo de enlace usado para conectar dois dispositivos diretamente, comum em conexões discadas e links WAN.,Suporta autenticação, compressão e encapsulamento de múltiplos protocolos.
+L2TP,Protocolo de tunelamento usado para criar VPNs, geralmente combinado com IPsec para segurança.,Permite a criação de túneis seguros entre redes remotas.
+PPTP,Protocolo de tunelamento para VPNs, menos seguro que L2TP/IPsec, mas fácil de configurar.,Utilizado em VPNs antigas, atualmente considerado inseguro.
+GRE,Protocolo de encapsulamento que permite transportar pacotes de diferentes protocolos através de túneis IP.,Usado para criar túneis entre roteadores e transportar tráfego multicast ou protocolos não roteáveis.
+NAT,Método em que um roteador altera os endereços IP dos pacotes enquanto eles transitam entre diferentes redes, permitindo que múltiplos dispositivos compartilhem um único IP público.,Muito utilizado em redes domésticas e corporativas para economizar endereços IPv4 e aumentar a segurança.
+PAT,Variante do NAT que utiliza diferentes portas para mapear múltiplos dispositivos internos para um único endereço IP público.,Também conhecido como NAT Overload, amplamente usado em roteadores domésticos.
+STP,Protocolo de camada 2 que previne loops de broadcast em redes com switches, desativando caminhos redundantes.,Mantém a rede operacional mesmo com múltiplos caminhos físicos, ativando caminhos alternativos em caso de falha.
+RSTP,Versão aprimorada do STP, que oferece convergência mais rápida após mudanças na topologia da rede.,Preferido em redes modernas para minimizar o tempo de indisponibilidade.
+MSTP,Extensão do STP que permite múltiplas instâncias de spanning tree em uma única rede, otimizando o uso de links redundantes.,Usado em ambientes com múltiplas VLANs.
+VTP,Protocolo proprietário da Cisco para gerenciamento centralizado de VLANs em switches.,Facilita a administração de VLANs em grandes redes Cisco.
+CDP,Protocolo proprietário da Cisco para descoberta de dispositivos vizinhos em uma rede.,Usado para mapear topologias e diagnosticar conexões em redes Cisco.
+LLDP,Protocolo padrão aberto para descoberta de dispositivos vizinhos em redes Ethernet.,Compatível com equipamentos de diferentes fabricantes.
+VRRP,Protocolo que permite alta disponibilidade de gateways, elegendo roteadores de backup para assumir em caso de falha do principal.,Usado para garantir continuidade de acesso à Internet em redes corporativas.
+HSRP,Protocolo proprietário da Cisco para redundância de gateways, semelhante ao VRRP.,Utilizado em redes Cisco para alta disponibilidade.
+GLBP,Protocolo proprietário da Cisco que oferece balanceamento de carga e redundância para gateways.,Permite que múltiplos roteadores compartilhem a carga de tráfego.
+802.1Q,Padrão IEEE para VLAN tagging em redes Ethernet, permitindo que múltiplas VLANs compartilhem o mesmo link físico.,Usado em switches gerenciáveis para segmentação lógica de redes e transporte de múltiplas VLANs entre switches.
+802.1X,Padrão IEEE para controle de acesso à rede baseado em autenticação de usuários e dispositivos.,Utilizado em redes corporativas para autenticação em switches e access points.
+802.3,Padrão IEEE para redes Ethernet com fio, definindo características físicas e de enlace.,Base das redes locais cabeadas.
+802.11 (a/b/g/n/ac/ax),Conjunto de padrões IEEE para redes sem fio (Wi-Fi), cada um com diferentes velocidades, frequências e capacidades.,Utilizados em redes domésticas e corporativas para acesso sem fio. 

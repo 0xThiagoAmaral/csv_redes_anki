@@ -1,0 +1,31 @@
+Termo,Explicação,Contexto
+Encapsulamento,Processo de adicionar cabeçalhos e trailers aos dados à medida que eles descem pelas camadas do modelo OSI ou TCP/IP.,Permite que cada camada trate os dados de forma independente, facilitando a interoperabilidade e o troubleshooting.
+MTU (Maximum Transmission Unit),Tamanho máximo de um pacote que pode ser transmitido em uma rede sem fragmentação.,Ajustar a MTU é essencial para evitar fragmentação excessiva e melhorar o desempenho em redes WAN e VPNs.
+Duplex (Half/Full),Refere-se à capacidade de comunicação de um dispositivo: half-duplex permite transmissão ou recepção alternada; full-duplex permite ambos simultaneamente.,Full-duplex é padrão em redes modernas, eliminando colisões e aumentando a eficiência.
+QoS (Quality of Service),Conjunto de técnicas para priorizar tipos de tráfego de rede, garantindo desempenho para aplicações críticas.,Usado para priorizar voz sobre IP (VoIP), vídeo e dados sensíveis a latência em redes corporativas.
+NAT (Network Address Translation),Técnica que permite múltiplos dispositivos compartilharem um único endereço IP público, traduzindo endereços privados para públicos.,Fundamental para economia de endereços IPv4 e segurança básica em redes domésticas e empresariais.
+PAT (Port Address Translation),Variante do NAT que utiliza diferentes portas para mapear múltiplos dispositivos para um único IP público.,Comum em roteadores residenciais, permite múltiplas conexões simultâneas à Internet.
+VLAN (Virtual LAN),Segmentação lógica de uma rede física em domínios de broadcast distintos, aumentando segurança e organização.,Permite separar departamentos ou funções em uma empresa sem necessidade de hardware adicional.
+Subnetting,Divisão de uma rede maior em sub-redes menores para otimizar roteamento e uso de endereços.,Essencial para design eficiente de redes e controle de broadcast.
+ARP (Address Resolution Protocol),Protocolo usado para mapear endereços IP a endereços MAC em redes locais.,Fundamental para comunicação em redes Ethernet; ataques ARP spoofing podem comprometer a segurança.
+Proxy ARP,Técnica onde um roteador responde a requisições ARP em nome de outro dispositivo, facilitando comunicação entre sub-redes.,Útil em cenários de transição de redes ou para compatibilidade com dispositivos legados.
+Broadcast Domain,Área lógica da rede onde um broadcast é propagado para todos os dispositivos.,Reduzir domínios de broadcast melhora desempenho e segurança em redes grandes.
+Collision Domain,Segmento de rede onde colisões de pacotes podem ocorrer; cada porta de switch cria um novo domínio de colisão.,Importante para entender limitações de hubs e vantagens dos switches.
+Trunking (802.1Q),Técnica que permite múltiplas VLANs trafegarem por um único link físico entre switches, usando tags de VLAN.,Essencial para redes corporativas com segmentação lógica avançada.
+Spanning Tree Protocol (STP),Protocolo que previne loops em redes com switches redundantes, desativando links desnecessários.,Garante resiliência e disponibilidade sem causar broadcast storms.
+Port Security,Funcionalidade de switches que limita o número de endereços MAC por porta, prevenindo acessos não autorizados.,Usado para aumentar a segurança física e lógica em ambientes corporativos.
+DHCP Snooping,Recurso de segurança que filtra mensagens DHCP não autorizadas, protegendo contra ataques como rogue DHCP.,Comum em switches gerenciáveis para proteger a atribuição de IPs.
+Port Mirroring (SPAN),Técnica que copia o tráfego de uma porta ou VLAN para outra porta para fins de monitoramento e análise.,Usado em troubleshooting e análise de segurança de rede.
+Link Aggregation (LACP),Protocolo que permite combinar múltiplos links físicos em um único link lógico para aumentar banda e redundância.,Melhora desempenho e tolerância a falhas em conexões entre switches e servidores.
+PoE (Power over Ethernet),Tecnologia que permite transmitir energia elétrica junto com dados pelo cabo Ethernet.,Facilita a instalação de dispositivos como access points e câmeras IP sem necessidade de tomadas próximas.
+Jumbo Frames,Quadros Ethernet com tamanho superior ao padrão (1518 bytes), usados para aumentar eficiência em redes locais.,Beneficia aplicações que transferem grandes volumes de dados, como storage e virtualização.
+FCS (Frame Check Sequence),Campo de verificação de integridade em quadros Ethernet, detectando erros de transmissão.,Ajuda a identificar problemas físicos na rede, como cabos defeituosos.
+TTL (Time To Live),Campo em pacotes IP que limita o número de saltos que um pacote pode dar antes de ser descartado.,Previne loops infinitos em redes e facilita troubleshooting de roteamento.
+Routing Table,Tabela mantida por roteadores e hosts, indicando os caminhos para diferentes redes.,Fundamental para o funcionamento do roteamento dinâmico e estático.
+Administrative Distance,Valor que indica a confiabilidade de uma fonte de rota em roteadores, usado para escolher a melhor rota.,Menor valor indica maior prioridade; importante em ambientes com múltiplos protocolos de roteamento.
+CIDR (Classless Inter-Domain Routing),Método de alocação de endereços IP e roteamento que permite máscaras de sub-rede flexíveis.,Aumenta eficiência no uso de endereços e simplifica o roteamento na Internet.
+Wildcard Mask,Máscara usada em ACLs e protocolos de roteamento para especificar intervalos de endereços.,Facilita a criação de regras flexíveis de filtragem e roteamento.
+OSPF Areas,Divisão lógica de uma rede OSPF em áreas para otimizar roteamento e reduzir overhead.,Essencial para escalabilidade e desempenho em grandes redes OSPF.
+BGP Peering,Processo de estabelecer conexões entre roteadores BGP para troca de rotas entre sistemas autônomos.,Base da troca de rotas na Internet global; requer configuração cuidadosa.
+ACL (Access Control List),Lista de regras aplicadas em roteadores e switches para filtrar tráfego com base em critérios como IP, porta e protocolo.,Usada para segmentação, segurança e controle de acesso em redes corporativas.
+Stateful vs Stateless Firewall,Stateful inspeciona o estado das conexões e permite tráfego relacionado; stateless filtra pacotes individualmente sem contexto.,Stateful é padrão em firewalls modernos, oferecendo maior segurança e controle. 
