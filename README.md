@@ -1,8 +1,3 @@
-<!-- Banner do Projeto -->
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Anki_logo.svg" alt="Anki Logo" width="120"/>
-</p>
-
 <h1 align="center">Coleção de Flashcards de Redes para Anki</h1>
 
 <p align="center">
