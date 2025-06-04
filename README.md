@@ -45,7 +45,11 @@ Cada arquivo aborda um tema específico, facilitando o estudo segmentado ou inte
 3. Clique em **"Importar Arquivo"** e selecione o arquivo CSV desejado (ex: `redes_flashcards_comandos.csv`)
 4. Na tela de importação:
    - **Tipo de arquivo:** CSV
+
    - **Separador de campo:** Vírgula (`,`)
+
+   - **Separador de campo:** Vírgula (",")
+
    - **Codificação:** UTF-8
    - **Mapeie os campos:**
      - Campo 1 → Frente (Termo)
